@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Shitta Abdulwaris Olamide, a computer science undergraduate at Yaba College of Technology. Aspiring back-end developer.">
+    <link rel="icon" href="path-to-your-favicon.ico" type="image/x-icon">
+    <title>Shitta Abdulwaris Olamide - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('background 9.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: #F5E9D8;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: rgba(0, 128, 0, 0.7);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            margin: 0 15px;
+            font-weight: 600;
+        }
+
+        header, footer {
+            background-color: rgba(0, 128, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 60px 20px;
+            margin-top: 50px; /* Adjusting for the sticky nav overlap */
+        }
+	
+        .content-card, .project-card {
+            margin-bottom: 30px;
+            padding: 30px;
+            background-color: rgba(35, 35, 35, 0.8);
+            border-radius: 12px;
+        }
+
+        a {
+            color: #FED766;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #FEA82F;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+
+        h2 {
+            border-bottom: 3px solid #FED766;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.6em;
+            margin-top: 0;
+        }
+
+        nav a:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Project cards */
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#top">Home</a>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header id="top">
+        <h1>Shitta Abdulwaris Olamide</h1>
+        <p>Undergraduate of Yaba College of Technology</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="content-card">
+            <div style="display: flex; align-items: center;">
+                <p style="flex: 1;">I'm a computer science student at Yaba Tech with aspirations to become a back-end developer. The world of servers, databases, and core logic appeals to me, and I am continually honing my skills to build scalable and efficient systems.</p>
+                <img src="my website pic.jpg" alt="Shitta Abdulwaris Olamide" title="Shitta Abdulwaris Olamide" style="margin-left: 20px; max-width: 300px; border-radius: 10px; box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="content-card">
+            <ul>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project A</h3>
+            <p>A web application that can be used for browsing and booking private jets.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project B</h3>
+            <p>A mobile application for ordering goods and services.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email me at <a href="mailto:aoshitta@gmail.com">aoshitta@gmail.com</a> or connect with me on <a href="https://www.facebook.com/abdulwarisshitta" target="_blank">Facebook</a> | <a href="https://www.twitter.com/warisshitta" target="_blank">Twitter</a></p>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> | View my projects on <a href="https://github.com/" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+
+</html>
